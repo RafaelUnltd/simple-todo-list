@@ -4,6 +4,13 @@ This repository has documenting purposes only and it aims on how to start with a
 ## The application
 This application is basically a react list, in wich we can add some items, so we can explore how the react state works and how the virtual DOM manage it.
 
+## Running the app
+It's very simple to get the project up and running. Just **clone this repository** and navigate to the folder path. Then execute the following commands:
+```
+$ npm install
+$ npm start
+```
+
 ## Our project structure
 The project structure is divided in main folders, wich are:
 
