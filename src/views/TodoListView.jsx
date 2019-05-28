@@ -20,11 +20,11 @@ const TodoListView = (props) => (
     </form>
     <TodoList>
       {props.todos.length > 0 ?
-        props.todos.map((todo) => (
-          <TodoItem>{todo}</TodoItem>
+        props.todos.map((todo, index) => (
+          <TodoItem key={index}>{todo}</TodoItem>
         ))
         :
-        <center><i>Add some items to the list</i></center>
+        <center>Add some items to the list</center>
       }
     </TodoList>
   </MainWrapper>

@@ -1,5 +1,10 @@
 .component-todolist {
-  padding: 0;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 576px){
+  .component-todolist {
+    margin: 0 150px;
+  }
 }
